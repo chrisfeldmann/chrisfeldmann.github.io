@@ -44,20 +44,38 @@ $('.navbar-collapse ul li a').click(function() {
         //attach some code to the scroll event of the window object
         //or whatever element(s) see http://docs.jquery.com/Selectors
         $(window).scroll(function () {
-              var height = $('body').height();
-              var scrollTop = $('body').scrollTop();
+              var height = $('html').height() || $('body').scrollTop();
+              var scrollTop = $('html').scrollTop() || $('body').scrollTop();
               var opacity = 1;
 
               // do some math here, by placing some condition or formula
               if(scrollTop > 500) {
                   opacity = 1;
+                  
               }
 
               if (scrollTop <500){
                 opacity = 0;
+               
               }
 
               //set the opacity of div id="someDivId"
               $('.navbar-fixed-top .navbar-brand').css('opacity', opacity);
+              $('.scroll-top').css('opacity', opacity);
+              
+
         });
-   });
+   
+   // });
+
+    // CHRIS FELDMANN ADDED : NAV BAR DEFAULT BACKGROUND COLOR ZERO OPACITY UNTIL FIRST SECTION
+
+    $(document).on('scroll', function (e) {
+
+     var alpha = $(document).scrollTop() / 550;
+
+     $('.navbar-default').css('background-color', 'rgba(44, 62, 80,' + alpha + ')');
+      //$('.navbar-inverse').css('background-color', 'rgba(70, 103, 26,' + alpha + ')');
+});
+
+    });
