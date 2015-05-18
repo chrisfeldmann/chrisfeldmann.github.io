@@ -46,7 +46,7 @@ $('.navbar-collapse ul li a').click(function() {
         $(window).scroll(function () {
               var height = $('html').height() || $('body').scrollTop();
               var scrollTop = $('html').scrollTop() || $('body').scrollTop();
-              var opacity = 1;
+              var opacity =1;
 
               // do some math here, by placing some condition or formula
               if(scrollTop > 500) {
@@ -59,8 +59,8 @@ $('.navbar-collapse ul li a').click(function() {
                
               }
 
-              //set the opacity of div id="someDivId"
-              $('.navbar-fixed-top .navbar-brand').css('opacity', opacity);
+              //set the opacity of div id=".navbar-brand" and ".scroll-top" 
+              $('.navbar-brand').css('opacity', opacity);
               $('.scroll-top').css('opacity', opacity);
               
 
@@ -75,7 +75,6 @@ $('.navbar-collapse ul li a').click(function() {
      var alpha = $(document).scrollTop() / 550;
 
      $('.navbar-default').css('background-color', 'rgba(44, 62, 80,' + alpha + ')');
-      //$('.navbar-inverse').css('background-color', 'rgba(70, 103, 26,' + alpha + ')');
 });
 
     });

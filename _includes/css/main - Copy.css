@@ -140,6 +140,7 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top .navbar-brand {
+       opacity: 0;
        /*color: rgba(0,0,0,0);*/
         font-size: 1.5em;
         -webkit-transition: all .3s;
@@ -152,11 +153,11 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
+        opacity:0;
         font-size: 1.5em;
     } 
 }
-/*'.navbar-brand' global CSS created to affect both the desktop and mobile 'Chris Feldmann' brand in order
-to hide it until scroll down to a certain point. That is handled in the freelancer.js file */
+
 .navbar-brand{opacity:0;}
 .navbar { 
     text-transform: uppercase;
@@ -180,6 +181,7 @@ to hide it until scroll down to a certain point. That is handled in the freelanc
 .navbar-inverse {
     background-color: rgba(44,62,80,0);
     border: 0;
+
 /* SHADOWS SIMULATING MATERIAL DESIGN -- I KNOW THIS ISN'T DONE CORRECTLY!
 -webkit-box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.5);
 -moz-box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.5);
@@ -188,12 +190,8 @@ box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.5);
 -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
 box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75); */
+
 }
-
-/* .navbar-collapse{
-   background-color: #000 !important;
-} */
-
 
 section {
     padding: 100px 0;
@@ -278,7 +276,7 @@ section.success {
     }
 }
 
- /* Scroll-top  = Scroll to top button which adheres to Google Material Design standards*/
+ /* Scroll-top */
 
  .scroll-top {
     opacity:0;
