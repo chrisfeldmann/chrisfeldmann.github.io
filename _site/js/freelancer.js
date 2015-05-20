@@ -74,14 +74,10 @@ $('.navbar-collapse ul li a').click(function() {
 
      var alpha = $(document).scrollTop() / 500;
 
-<<<<<<< HEAD
      // GREEN COLOR PALETTE NAV BAR BELOW
      // $('.navbar-default').css('background-color', 'rgba(104, 159, 56,' + alpha + ')');
      // BLUE GREY COLOR PALETTE NAV BAR BELOW
       $('.navbar-default').css('background-color', 'rgba(38, 50, 56,' + alpha + ')');
-=======
-     $('.navbar-default').css('background-color', 'rgba(44, 62, 80,' + alpha + ')');
->>>>>>> origin/master
 });
 
     });
