@@ -25,7 +25,6 @@ a.active {
     color: #{{ site.color.primary }};
 }
 
-
 h1,
 h2,
 h3,
@@ -90,7 +89,7 @@ header {
 -moz-box-shadow: inset 0px -10px 15px -10px rgba(0,0,0,0.5);
 box-shadow: inset 0px -10px 15px -10px rgba(0,0,0,0.5);
 
-    /* background: #{{ site.color.primary }}; */
+   /* background: #{{ site.color.primary }}; */
 
 }
 
@@ -119,7 +118,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 125px;
+        padding-top: 200px;
         padding-bottom: 100px;
     }
 
@@ -141,6 +140,7 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top .navbar-brand {
+       opacity: 0;
        /*color: rgba(0,0,0,0);*/
         font-size: 1.5em;
         -webkit-transition: all .3s;
@@ -153,11 +153,11 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
+        opacity:0;
         font-size: 1.5em;
     } 
 }
-/*'.navbar-brand' global CSS created to affect both the desktop and mobile 'Chris Feldmann' brand in order
-to hide it until scroll down to a certain point. That is handled in the freelancer.js file */
+
 .navbar-brand{opacity:0;}
 .navbar { 
     text-transform: uppercase;
@@ -171,17 +171,17 @@ to hide it until scroll down to a certain point. That is handled in the freelanc
 
 .navbar .navbar-nav {
     letter-spacing: 1px;
-    text-align: right;
 }
 
 .navbar .navbar-nav li a:focus {
-     outline: 0;
+    outline: 0;
 }
 
 .navbar-default,
 .navbar-inverse {
-    background-color: rgba(104,159,56,0);
+    background-color: rgba(44,62,80,0);
     border: 0;
+
 /* SHADOWS SIMULATING MATERIAL DESIGN -- I KNOW THIS ISN'T DONE CORRECTLY!
 -webkit-box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.5);
 -moz-box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.5);
@@ -190,12 +190,8 @@ box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.5);
 -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
 box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75); */
+
 }
-
-/* .navbar-collapse{
-   background-color: #000 !important;
-} */
-
 
 section {
     padding: 100px 0;
@@ -209,17 +205,12 @@ section h2 {
 
 section.success {
     color: #fff;
-    /*background: #{{ site.color.primary }};*/
-    /* GREEN PALETTE */
-    /*background: #8BC34A;*/
-
-    /* BLUE GREY PALETTE */
-    background: #455A64;
+    background: #{{ site.color.primary }};
 }
 
 @media(max-width:767px) {
     section {
-        padding: 75 px 0;
+        padding: 75px 0;
     }
 
     section.first {
@@ -285,7 +276,7 @@ section.success {
     }
 }
 
- /* Scroll-top  = Scroll to top button which adheres to Google Material Design standards*/
+ /* Scroll-top */
 
  .scroll-top {
     opacity:0;
@@ -296,7 +287,7 @@ section.success {
      width: 56px;
       height: 56px;
       border-radius: 50%;
-      background-color: #18bc9c !important;
+      background-color: #2196F3 !important;
       color: #fff !important;
       overflow: hidden;
       transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
@@ -408,8 +399,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    /*color: #{{ site.color.primary }};*/
-    color:#8BC34A;
+    color: #{{ site.color.primary }};
 }
 
 form .row:first-child .floating-label-form-group {
@@ -426,14 +416,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    /* background-color: #{{ site.color.secondary }}; */
-    
-    /* GREEN PALETTE */
-    /*background-color: #8BC34A;*/
-
-    /* BLUE GREY PALETTE */
-    background-color: #37474F;
-
+    background-color: #{{ site.color.secondary }};
 }
 
 footer .footer-col {
@@ -442,12 +425,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    /* background-color: #{{ site.color.secondary-dark }}; */
-    /* GREEN PALETTE */
-    /* background-color: #689F38; */
-    
-    /* BLUE GRAY PALETTE */
-    background-color: #263238;
+    background-color: #{{ site.color.secondary-dark }};
 }
 
 .btn-social {
