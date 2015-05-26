@@ -5,25 +5,54 @@
                 <div class="row">
                     <div class="footer-col col-md-4">
                         <h3>{{ site.footer.location }}</h3>
-                        <p>
+                        <!-- <p>
                             {% for adress in site.address %}
                                 {{ adress.line }} <br>
 		                    {% endfor %}
-                        </p>
+                        </p> -->
+                        <p>Louisville, Kentucky </p>
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>{{ site.footer.social }}</h3>
-                        <ul class="list-inline">
+                        <!-- <ul class="list-inline">
                             {% for network in site.social %}
                             <li>
                                 <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
                             </li>
 		                    {% endfor %}
+                        </ul> -->
+
+                        <ul class="list-inline">
+                            
+                             <li>
+                                <a href="http://linkedin.com/in/chrisfeldmann" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+
+                            <li>
+                                <a href="http://twitter.com/chris_feldmann" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            
+                            <li>
+                                <a href="http://facebook.com/chrisfeldmann" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                        
+                            <li>
+                                <a href="http://behance.net/chrisfeldmann" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-behance"></i></a>
+                            </li>
+                            
+                            <!-- <li>
+                                <a href="http://github.com/chrisfeldmann" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li> -->
+                            
                         </ul>
+
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.credits }}</h3>
-                        <p>{{ site.credits }}</p>
+                        <!-- <h3>{{ site.footer.credits }}</h3>
+                        <p>{{ site.credits }}</p> -->
+                        <h3>Say Hello!</h3>
+                        <p><a href="mailto:chris@chrisfeldmann.com?Subject=Hello!" target="_top">chris@chrisfeldmann.com</a></p>
+                        <p>513-314-2310</p>
                     </div>
                 </div>
             </div>
