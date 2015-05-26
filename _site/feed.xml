@@ -5,16 +5,16 @@
     <description>Chris Feldmann is an Interaction / Visual / Motion Designer</description>
     <link>http://localhost:4000/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 20 May 2015 17:52:38 -0400</pubDate>
-    <lastBuildDate>Wed, 20 May 2015 17:52:38 -0400</lastBuildDate>
+    <pubDate>Sat, 23 May 2015 00:10:20 -0400</pubDate>
+    <lastBuildDate>Sat, 23 May 2015 00:10:20 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Project 1</title>
+        <title>Derby Hatterizer</title>
         <description>&lt;a href=&quot;http://interactives.courier-journal.com/projects/derby-hatterizer/&quot;&gt;See the live project&lt;/a&gt; &lt;/br&gt;The user is a Louisville citizen who wants to participate in activities surrounding the Kentucky Derby. This interactive project allows the user to take/upload their photo and digitally place Kentucky Derby (or other silly hats) on their heads. They then can share the photo with their friends on social media.</description>
         <pubDate>Fri, 18 Jul 2014 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/visual/interaction%20design/2014/07/18/project-1/</link>
-        <guid isPermaLink="true">http://localhost:4000/visual/interaction%20design/2014/07/18/project-1/</guid>
+        <link>http://localhost:4000/visual/interaction%20design/2014/07/18/derby-hatterizer/</link>
+        <guid isPermaLink="true">http://localhost:4000/visual/interaction%20design/2014/07/18/derby-hatterizer/</guid>
         
         
         <category>visual/interaction design</category>
