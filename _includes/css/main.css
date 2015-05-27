@@ -263,10 +263,13 @@ section.success {
 
 .portfolio-desc {
     text-align: left !important;
+    font-family: lato;
+    font-weight: 200 !important;
    }
 
 .portfolio-desc h3{
     text-align: center !important;
+    font-weight: 700;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
@@ -486,11 +489,14 @@ footer .footer-below {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+    background-color: #263238 !important;
+    color: #ffffff !important;
 }
 
 .portfolio-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
+    color: #ffffff !important;
 }
 
 .portfolio-modal .modal-content img {
@@ -520,7 +526,8 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #{{ site.color.secondary }};
+    /* background-color: #{{ site.color.primary }}; */
+    background-color: #ffffff !important;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -530,7 +537,8 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #{{ site.color.secondary }};
+    /* background-color: #{{ site.color.primary }}; */
+    background-color: #ffffff !important;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
