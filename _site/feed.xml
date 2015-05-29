@@ -5,8 +5,8 @@
     <description>Chris Feldmann is an Interaction / Visual / Motion Designer</description>
     <link>http://localhost:4000/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 29 May 2015 14:54:03 -0400</pubDate>
-    <lastBuildDate>Fri, 29 May 2015 14:54:03 -0400</lastBuildDate>
+    <pubDate>Fri, 29 May 2015 16:00:34 -0400</pubDate>
+    <lastBuildDate>Fri, 29 May 2015 16:00:34 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -59,25 +59,25 @@
     
       <item>
         <title>Graphic Examples</title>
-        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
+        <description>An example of graphic work that I have produced for various clients.</description>
         <pubDate>Tue, 15 Jul 2014 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/web%20development/2014/07/15/graphic-examples/</link>
-        <guid isPermaLink="true">http://localhost:4000/web%20development/2014/07/15/graphic-examples/</guid>
+        <link>http://localhost:4000/graphic/visual%20design/2014/07/15/graphic-examples/</link>
+        <guid isPermaLink="true">http://localhost:4000/graphic/visual%20design/2014/07/15/graphic-examples/</guid>
         
         
-        <category>web development</category>
+        <category>graphic/visual design</category>
         
       </item>
     
       <item>
         <title>Motion Reel</title>
-        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
+        <description>A video reel of my motion design, motion graphics and animation work  with a few stills of some 3d models that I produced.</description>
         <pubDate>Mon, 14 Jul 2014 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/web%20development/2014/07/14/motion-reel/</link>
-        <guid isPermaLink="true">http://localhost:4000/web%20development/2014/07/14/motion-reel/</guid>
+        <link>http://localhost:4000/motion%20design/2014/07/14/motion-reel/</link>
+        <guid isPermaLink="true">http://localhost:4000/motion%20design/2014/07/14/motion-reel/</guid>
         
         
-        <category>web development</category>
+        <category>motion design</category>
         
       </item>
     
