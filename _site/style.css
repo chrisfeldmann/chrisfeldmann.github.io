@@ -91,6 +91,7 @@ header {
     text-align: center;
     color: #fff;
     background-image: url(../../img/bg.jpg);
+    background-color: #263238;
     background-size: cover;
 /* SHADOWS SIMULATING MATERIAL DESIGN -- I KNOW THIS ISN'T DONE CORRECTLY! */
 -webkit-box-shadow: inset 0px -10px 15px -10px rgba(0,0,0,0.5);
