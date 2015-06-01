@@ -287,10 +287,12 @@ section.success {
 }
 
 #portfolio{
-    background-color: #263238 !important;
+    /*background-color: #263238 !important;*/
+    background-color: #fff !important;
 }
 #portfolio h2{
-    color:#fff !important;
+    /*color:#fff !important;*/
+    color: #263238 !important;
 }
 
 @media(min-width:767px) {
@@ -495,8 +497,10 @@ footer .footer-below {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
-    background-color: #263238 !important;
-    color: #ffffff !important;
+    /*background-color: #263238 !important;*/
+    background-color: #fff !important;
+    /*color: #ffffff !important;*/
+    color: #263238 !important;
 }
 
 .portfolio-modal .modal-content h2 {
@@ -532,8 +536,8 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    /* background-color: #{{ site.color.primary }}; */
-    background-color: #ffffff !important;
+    background-color: #{{ site.color.primary }};
+    /* background-color: #ffffff !important; */
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -543,8 +547,8 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    /* background-color: #{{ site.color.primary }}; */
-    background-color: #ffffff !important;
+    background-color: #{{ site.color.primary }};
+    /* background-color: #ffffff !important; */
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
