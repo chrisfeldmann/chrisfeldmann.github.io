@@ -186,6 +186,10 @@ to hide it until scroll down to a certain point. That is handled in the freelanc
      outline: 0;
 }
 
+.navbar-default .navbar-nav>.active>a{
+	background-color: #18bc9c !important;
+}
+
 .navbar-default,
 .navbar-inverse {
     background-color: rgba(104,159,56,0);
@@ -295,11 +299,10 @@ section.success {
 
 #portfolio{
     /*background-color: #263238 !important;*/
-    background-color: #fff !important;
+    background-color: #37474F !important;
 }
 #portfolio h2{
-    /*color:#fff !important;*/
-    color: #263238 !important;
+    color:#fff !important;
 }
 
 @media(min-width:767px) {
@@ -312,6 +315,21 @@ section.success {
     text-align: center;
 }
 
+#contact{
+	background-color: #37474F !important;
+}
+
+#contact h2{
+	color: #fff;
+}
+
+.form-control{
+	color: #fff;
+}
+
+.floating-label-form-group{
+	color:#fff !important;
+}
 
  /* Scroll-top  = Scroll to top button which adheres to Google Material Design standards*/
 
@@ -406,6 +424,7 @@ section.success {
     background: 0 0;
     box-shadow: none!important;
     resize: none;
+    color:#ffffff;
 }
 
 .floating-label-form-group label {
@@ -436,8 +455,8 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    /*color: #18bc9c;*/
-    color:#8BC34A;
+    color: #18bc9c;
+    /*color:#8BC34A;*/
 }
 
 form .row:first-child .floating-label-form-group {
@@ -459,8 +478,11 @@ footer .footer-above {
     /* GREEN PALETTE */
     /*background-color: #8BC34A;*/
 
-    /* BLUE GREY PALETTE */
-    background-color: #37474F;
+    /* BLUE GREY PALETTE 
+    background-color: #37474F;*/
+
+     /* BLUE GREY PALETTE DARKER TEST*/
+    background-color: #263238;
 
 }
 
@@ -474,8 +496,11 @@ footer .footer-below {
     /* GREEN PALETTE */
     /* background-color: #689F38; */
     
-    /* BLUE GRAY PALETTE */
-    background-color: #263238;
+    /* BLUE GRAY PALETTE
+    background-color: #263238; */
+
+    /*BLUE GRAY PALETTE DARKER TEST*/
+    background-color: #192125;
 }
 
 .btn-social {
@@ -504,10 +529,8 @@ footer .footer-below {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
-    /*background-color: #263238 !important;*/
-    background-color: #fff !important;
-    /*color: #ffffff !important;*/
-    color: #263238 !important;
+    background-color: #263238 !important;
+    color: #ffffff !important;
 }
 
 .portfolio-modal .modal-content h2 {
