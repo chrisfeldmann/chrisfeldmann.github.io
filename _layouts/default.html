@@ -4,9 +4,10 @@
     <body id="page-top" class="index">
     {% include nav.html %}
     {% include header.html %}
-    {% include about.html %}
     {% include portfolio_grid.html %}
-    {% include process.html %}
+    {% include about.html %}
+    
+    
     
 
     {% if site.contact == "static" %}
@@ -20,3 +21,10 @@
     {% include js.html %}
     </body>
 </html>
+
+<!-- NOTE: I previously added a secton called "Process" but have, at least for the time being, decided to remove it.
+You'll have to add a line beneath the "include about" section, but obviously instead of "about" it will read "process.html"
+
+You'll also need to unhide the "Process" nav in nav.html
+
+END NOTE -->
