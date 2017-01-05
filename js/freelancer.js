@@ -81,3 +81,8 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
     });
+
+// CHRIS FELDMANN ADDED: STOP VIDEO WHEN MODAL CLOSES
+$(".modal").on('hidden.bs.modal', function (e) {
+    $(".modal iframe").attr("src", $(".modal iframe").attr("src"));
+});
