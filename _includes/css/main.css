@@ -522,14 +522,14 @@ footer .footer-below {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
-    background-color: #263238 !important;
-    color: #ffffff !important;
+    background-color: #fff !important;
+    color: #263238 !important;
 }
 
 .portfolio-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
-    color: #ffffff !important;
+    color: #263238!important;
 }
 
 .portfolio-modal .modal-content img {
@@ -537,7 +537,7 @@ footer .footer-below {
 }
 
 .portfolio-modal .modal-content .item-details {
-    margin: 30px 0;
+    margin: 5px 0;
 }
 
 .portfolio-modal .close-modal {
@@ -559,8 +559,9 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #{{ site.color.primary }};
-    /* background-color: #ffffff !important; */
+    background-color: #263238 !important;
+    /* #{{ site.color.primary }} */
+    /*background-color: #ffffff !important; */
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -570,9 +571,31 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #{{ site.color.primary }};
-    /* background-color: #ffffff !important; */
+    background-color: #263238 !important;
+    /* #{{ site.color.primary }} */
+    /*background-color: #ffffff !important; */
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+/* CHRIS FELDMANN ADDED: CSS FOR MOTION REEL IN PORTFOLIO || TO FORCE HD PLAYBACK, BUT STILL BE RESPONSIVE */
+
+.responsive-container {
+    position: relative;
+    padding-bottom: 53.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.responsive-container,
+    .responsive-container iframe {
+    max-width: 1280px;
+    max-height: 720px;
+}
+.responsive-container iframe {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
 }
