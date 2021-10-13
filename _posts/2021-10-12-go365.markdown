@@ -4,8 +4,8 @@ modal-id: 1
 date: 2014-07-15
 img: submarine.png
 alt: Graphic Examples
-project-date: March 2016
-client: Various
+project-date: 2017 to Present
+client: Humana Go365
 category: Digital Product Design
 description: <div class = "portfolio-desc"><img src="../img/portfolio/Go365_WebMobile_Hero.png" class="img-responsive img-centered" alt"Go365 Web and Mobile"><p><h3>Concept Overview</h3></p><p>Go365 is an employee wellness program powered by Humana. Backed in actuarial science, the customizable experience gives companies of any size the ability to take a dedicated interest in their employees’ health and wellness.</p>
 
