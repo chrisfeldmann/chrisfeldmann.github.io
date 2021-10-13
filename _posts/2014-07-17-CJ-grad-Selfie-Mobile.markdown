@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 7
+modal-id: 2
 date: 2014-07-17
 img: cjgrad_cover.jpg
 alt: CJ Grad Selfie
