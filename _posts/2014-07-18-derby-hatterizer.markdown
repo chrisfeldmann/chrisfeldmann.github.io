@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 2
+modal-id: 1
 date: 2014-07-18
 img: hatterizer_cover.jpg
 alt: Derby Hatterizer
