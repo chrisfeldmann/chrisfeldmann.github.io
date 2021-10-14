@@ -116,7 +116,7 @@ a,
 
 a:visited {
 	text-decoration: underline;
-	color: #CF8545;
+	color: #f0a359;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -1432,7 +1432,7 @@ header .header-logo a {
 	display: block;
 	height: 2px;
 	width: 24px;
-	background-color: #FFFFFF; /* Hamburger Icon Color */
+	background-color: #FFFFFF;
 	position: absolute;
 	top: 50%;
 	right: 9px;
@@ -1524,13 +1524,13 @@ header .header-logo a {
 }
 
 #menu-nav-wrap .nav-list li a {
-	color: rgba(255, 255, 255, 0.9); /* Last number changes nav/menu list item opacity */
+	color: rgba(255, 255, 255, 0.25);
 	display: block;
 }
 
 #menu-nav-wrap .nav-list li a:hover,
 #menu-nav-wrap .nav-list li a:focus {
-	color: darkorange; /* This changes the onHover/focus color of the nav/menu list items */
+	color: white;
 }
 
 #menu-nav-wrap .header-social-list {
@@ -1547,12 +1547,12 @@ header .header-logo a {
 }
 
 #menu-nav-wrap .header-social-list li a {
-	color: rgba(255, 255, 255, 0.9); /* Last number changes the menu social icons opacity */
+	color: rgba(255, 255, 255, 0.15);
 }
 
 #menu-nav-wrap .header-social-list li a:hover,
 #menu-nav-wrap .header-social-list li a:focus {
-	color: darkorange; /* This changes the onHover/focus color of the nav social icons */
+	color: white;
 }
 
 #menu-nav-wrap .header-social-list li:last-child {
@@ -1655,7 +1655,7 @@ header .header-logo a {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	opacity: .5; /* This changes the Overlay opacity over the home intro image */
+	opacity: .2;
 	background: -moz-linear-gradient(left, black 0%, black 20%, transparent 100%);  /* FF3.6-15 */
 	background: -webkit-linear-gradient(left, black 0%, black 20%, transparent 100%);  /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to right, black 0%, black 20%, transparent 100%);  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -1961,7 +1961,7 @@ header .header-logo a {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	opacity: .1; /* This is the opacity of the BG image in the about section */
+	opacity: .35;
 }
 
 .about-wrap {
