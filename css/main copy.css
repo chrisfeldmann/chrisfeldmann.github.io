@@ -1261,9 +1261,9 @@ input::-moz-focus-inner {
 .section-intro.with-bottom-sep::after {
 	display: inline-block;
 	height: 1px;
-	width: 100%;
+	width: 240px;
 	background-color: #dedede;
-	align-items: center;
+	text-align: center;
 }
 
 /* ------------------------------------------------------------------- 
