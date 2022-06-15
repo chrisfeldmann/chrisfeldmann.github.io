@@ -21,6 +21,21 @@
    <link rel="stylesheet" href="css/vendor.css">  
    <link rel="stylesheet" href="css/main.css">  
 	
+	<!-- Adding page level CSS for the unordered list. If I find that I need this element in more locations, I'll add this style to base.css -->
+	<style type="text/css">
+		.disc {
+ 			list-style-type: disc;
+				}
+		.circle {
+ 			list-style-type: circle;
+ 			/* margin-left: -2em; */
+				}
+		.square {
+ 			list-style-type: square;
+ 			/* margin-left: -2em; */
+				}
+	</style>
+	
    <!-- script
    ================================================== -->
 	<script src="js/modernizr.js"></script>
@@ -63,13 +78,13 @@
          </br>
 	<p>Some highlights from my time working with Go365 so far have been:</p>
 
-<ul>
-  <li>Taking initiative during a leadership lull to take decisive action, resulting in a 	research-led redsign of the Go365 Medicare experience from the ground up—focusing on senior a11y.</li>
+<ul class="disc">
+  <li>Taking initiative during a leadership lull to take decisive action, resulting in a research-led redsign of the Go365 Medicare experience from the ground up—focusing on senior a11y.</li>
   <li>Being responsible for implementing new digital functionality within the native app experience to complement telephonic coaching capabilities.
-    <ul>
+    <ul class="circle">
       <li>Allows members to keep track of wellness goals digitally.</li>
       <li>Created the ability for members to enroll in telephonic coaching via the mobile app.</li>
-      <ul>
+      <ul class="square">
       <li>Resulted in a 600% increase in telephonic coaching enrollments within the first two months of the feature release—ahead of marketing (UX changes alone).</li>
       <li>Now, approxmiately 95% of telephonic coaching enrollment is now digital enrollment via the app.</li>
       </ul>
