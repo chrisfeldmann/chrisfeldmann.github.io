@@ -20,6 +20,22 @@
    <link rel="stylesheet" href="css/base.css">
    <link rel="stylesheet" href="css/vendor.css">  
    <link rel="stylesheet" href="css/main.css">  
+	
+	<!-- I'm adding some page level CSS for my bulleted list styles. If I find that I need these
+		more frequently than this page, I'll go back and add them to the base.css -->
+	<style type="text/css">
+	.disc {
+ 		list-style-type: disc;
+			}
+	.circle {
+ 		list-style-type: circle;
+ 		margin-left: -2em;
+			}
+	.square {
+ 		list-style-type: square;
+ 		margin-left: -4em;
+			}
+	</style>
 
    <!-- script
    ================================================== -->
@@ -60,11 +76,21 @@
            
          <img src="images/portfolio/Go365_WebMobile_Hero.png">
 
-         
+         </br>
 	<p> Some highlights from my time working with Go365 so far have been:</p>
-		 <ul>
+		 <ul class="disc">
   			<li>Taking initiative during a leadership lull to take decisive action, resulting in a research-led redsign of the Go365 Medicare experience from the ground up—focusing on senior a11y.</li>
-  			<li>Being responsible for implementing new digital functionality within the native app experience to complement telephonic coaching capabilities. On top of allowing members to keep track of wellness goals digitally, we also created the ability for members to enroll in telephonic coaching via the mobile app. This effort resulted in a 600% increase in telephonic coaching enrollments within the first two months of the feature release—ahead of marketing (UX changes alone). Now, approxmiately 95% of telephonic coaching enrollment is now digital enrollment via the app.</li>
+  			<li>Being responsible for implementing new digital functionality within the native app experience to complement telephonic coaching capabilities.</li>
+		 </ul>
+		 <ul class="circle">
+			 <li>Allows members to keep track of wellness goals digitally.</li>
+			<li>Created the ability for members to enroll in telephonic coaching via the mobile app.
+		 </ul>
+		  <ul class="square">
+			<li>Resulted in a 600% increase in telephonic coaching enrollments within the first two months of the feature release—ahead of marketing (UX changes alone).</li>
+			<li>Now, approxmiately 95% of telephonic coaching enrollment is now digital enrollment via the app.</li>
+		 </ul>
+		 <ul class="disc">
   			<li>Leading a team of incredibly talented designers, UX Writers and Researcers.</li>
 		</ul>
 
